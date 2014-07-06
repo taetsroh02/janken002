@@ -80,8 +80,8 @@ int main(int argc, const char * argv[])
     }
     
     
-    //４０点以下だと、赤点ですよ。表示したい
-    if (r <=40)
+    //４０点未満だと、赤点ですよ。表示したい
+    if (r <40)
     {
         printf("赤点です。\n");
     }
